@@ -1,3 +1,14 @@
 export { default } from "next-auth/middleware";
 
-export const config = { matcher: ["/dashboard"] };
+/*
+   Add all the pages we want to protect. 
+   Not accessable when we are logout-ed.
+*/
+export const config = { matcher: 
+    [ "/dashboard" ] 
+};
+
+/*
+   NextAuthJS | Middleware
+   https://next-auth.js.org/configuration/nextjs#middleware
+*/

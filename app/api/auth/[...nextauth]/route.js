@@ -48,6 +48,11 @@ const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
 
 /*
+   NextAuthJS | Options
+   https://next-auth.js.org/configuration/options
+*/
+
+/*
    NextJS | Catch-all Segments
    Dynamic Segments can be extended to catch-all subsequent segments by adding an ellipsis inside the brackets [...folderName].
 
