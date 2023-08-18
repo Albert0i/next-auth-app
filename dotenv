@@ -2,3 +2,5 @@
 MONGODB_URI=<your mongodb uri>
 
 NEXTAUTH_SECRET=<your secret token>
+
+NEXTAUTH_URL=http://localhost:3001

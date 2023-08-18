@@ -46,3 +46,12 @@ export const authOptions = {
 const handler = NextAuth(authOptions);
 
 export { handler as GET, handler as POST };
+
+/*
+   NextJS | Catch-all Segments
+   Dynamic Segments can be extended to catch-all subsequent segments by adding an ellipsis inside the brackets [...folderName].
+
+   For example, app/shop/[...slug]/page.js will match /shop/clothes, but also /shop/clothes/tops, /shop/clothes/tops/t-shirts, and so on.
+
+   https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments
+*/
