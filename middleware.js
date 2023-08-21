@@ -11,4 +11,7 @@ export const config = { matcher:
 /*
    NextAuthJS | Middleware
    https://next-auth.js.org/configuration/nextjs#middleware
+
+   NextAuthJS | getServerSession
+   https://next-auth.js.org/configuration/nextjs#unstable_getserversession
 */

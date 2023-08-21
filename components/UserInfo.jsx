@@ -24,3 +24,11 @@ export default function UserInfo() {
     </div>
   );
 }
+
+/*
+   NextAuth.js | Getting Started 
+   https://next-auth.js.org/getting-started/example
+
+   NextAuthJS | useSession()
+   https://next-auth.js.org/getting-started/client#usesession
+*/

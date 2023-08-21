@@ -14,3 +14,11 @@ export default async function Home() {
     </main>
   );
 }
+
+/*
+   NextAuth.js | Getting Started 
+   https://next-auth.js.org/getting-started/example
+
+   NextAuthJS | getServerSession
+   https://next-auth.js.org/configuration/nextjs#unstable_getserversession
+*/
